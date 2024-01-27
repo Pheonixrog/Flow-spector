@@ -7,8 +7,8 @@ body {
 
 .navbar {
   font-family: Arial, sans-serif;
-  background-color: #023e7d;
-  overflow: hidden;
+  background: rgb(1,0,15);
+  background: linear-gradient(90deg, rgba(1,0,15,1) 21%, rgba(16,16,105,1) 100%, rgba(0,212,255,1) 100%);
   font-size: 17px;
   display: flex;
 }
@@ -35,7 +35,7 @@ main {
   background-position: center;
   display: flex;
   position: static !important;
-  background: url(./nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg) center/cover
+  background: url(./Artificial\ Intelligence\ _\ Visual\ effect\ motion.gif) center/cover
     no-repeat;
 }
 
@@ -76,12 +76,14 @@ footer {
   bottom: 180px;
 }
 
-.container h1 {
+.first  {
   position: relative;
   font-size: 120px;
   font-weight: 600;
   left: 100px;
+  margin-top: 500px;
 }
+
 
 .container h2 {
   font-size: 30px;
@@ -91,18 +93,20 @@ footer {
 }
 
 .container p {
-  width: 50%;
-  font-size: 22px;
+  width: 25%;
+  font-size: 28px;
   position: relative;
-  left: 100px;
-  bottom: 200px;
+  left: 1050px;
+  bottom: 400px;
+
 }
 
 /* 2nd page */
 
 .types {
   display: flex;
-  background-color: black;
+  background: rgb(1,0,15);
+background: linear-gradient(180deg, rgba(1,0,15,1) 75%, rgba(16,16,105,1) 100%, rgba(0,212,255,1) 100%);
   color: white;
   align-items: center;
   justify-content: center;
@@ -134,4 +138,15 @@ footer {
   text-align: justify;
   margin-right: 100px;
   margin-left: 100px;
+}
+
+.the{
+
+  width: 10%;
+  position: relative;
+  right: 270px;
+  justify-content: baseline;
+  text-align: justify;
+  font-size: 40px !important;
+  
 }
