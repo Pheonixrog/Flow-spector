@@ -32,3 +32,25 @@ body {
     color: #000420;
     z-index: 2;
   }
+
+  main{
+    width: 100%;
+    height: 98vh;
+    background: url() center/cover
+    no-repeat;
+    display: flex;
+    justify-content: center;
+    width : 80%;
+    text-align: center;
+    margin-left: 200px;
+  }
+
+  main h1{
+    font-size: 120px;
+    font-weight: 700;
+  }
+
+  main p{
+    font-size: 30px;
+    font-weight: 500;
+  }
