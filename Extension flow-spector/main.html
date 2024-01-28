@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="utils/bootstrap/css/bootstrap.min.css" />
+
+    <style>
+        body {
+            background-color: #212529; /* Dark background color */
+            color: #ffffff; /* Text color */
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .header {
+            background-color: #343a40; /* Dark header background color */
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .icon {
+            width: 30px; /* Adjust the width as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .title {
+            margin: 0;
+        }
+
+        .switch__cont {
+            margin-left: auto;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff; /* Slider color */
+    transition: background-color 0.3s ease; /* Smooth transition for background-color */
+    border-radius: 17px; /* Decreased border-radius */
+    width: 40px; /* Decreased width */
+    height: 20px; /* Decreased height */
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px; /* Decreased height */
+    width: 14px; /* Decreased width */
+    left: 3px; /* Adjusted position */
+    bottom: 3px; /* Adjusted position */
+    background-color: #007bff; /* Switch color when active */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+    border-radius: 50%;
+}
+
+        input:checked + .slider {
+            background-color: #28a745; /* Background color when active */
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        .main__section {
+            padding: 25px;
+        }
+
+        .main__header {
+            background-color: #343a40; /* Dark header background color */
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 35px;
+        }
+
+        .list__cmds {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .list__index {
+            margin: 0;
+        }
+
+        #DP_msg {
+            margin: 0;
+        }
+
+        .CUR__WSContainer {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        hr.solid {
+            border-top: 1px solid #fff; /* Color of the solid line */
+        }
+
+        #CUR__Website {
+            margin: 0;
+        }
+
+        .footer {
+            background-color: #343a40; /* Dark footer background color */
+            padding: 1px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="images/icon.png" class="icon" alt="icon" />
+            <h6 class="title">
+                <div id="DP_Type-Title">FLOW SPECTOR</div>
+            </h6>
+        </div>
+
+        <div class="coordinates-box" id="coordinatesBox">
+            
+        </div>
+
+        <div class="switch__cont">
+            <div class="container">
+                <label class="switch">
+                    <input type="checkbox" id="switch__status"  />
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="main__section">
+        <div class="main__header">
+            <div class="list__cmds">
+                <a href="" id="list__dec"> &lt; </a>
+                <div class="list__index"># out of #</div>
+                <a href="" id="list__inc"> &gt; </a>
+            </div>
+            <p id="DP_msg">...</p>
+            <div class="CUR__WSContainer center">
+                <hr class="solid" />
+            </div>
+            <p id="CUR__Website" class="center"> </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="footer__text center">
+             FLOW SPECTOR
+        </p>
+    </div>
+
+    <script src="utils/bootstrap/js/jquery-3.7.0.js"></script>
+    <script src="utils/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="popup.js"></script>
+
+    
+</body>
+</html>
