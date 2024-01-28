@@ -13,7 +13,6 @@ body {
     background: linear-gradient(90deg, rgba(1,0,15,1) 21%, rgba(16,16,105,1) 100%, rgba(0,212,255,1) 100%);
     overflow: hidden;
     font-size: 22px;
-    margin-top: 6px; 
     display: flex;
     
  
@@ -93,3 +92,23 @@ body {
  .aim{
   margin-top: 150px;
  }
+
+ .bg{
+  background: url(./about3.jpg) center/cover no-repeat;
+  
+ }
+
+ main{
+  background: rgb(213,65,212);
+  background: linear-gradient(0deg, rgba(213,65,212,1) 0%, rgba(7,7,70,1) 15%, rgba(0,0,0,1) 95%);
+ }
+
+
+ header img{
+  width: 55px;
+  height: 50px;
+  color: #80ffdb;
+  position: relative;
+  z-index: 3;
+  left: 1050px;
+}
