@@ -36,7 +36,7 @@ body {
 
   /*     */
   .div1{
-    background-color: #80ffdb;
+    background-color: slateblue;
     position: relative;
     height: 40vh;
 
@@ -104,7 +104,7 @@ body {
     height: 80vh;
   }
   .container{
-    background-color: #80ffdb;
+    background-color: slateblue;
     display: flex;
     flex-direction: column;
     
