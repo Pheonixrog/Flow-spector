@@ -29,7 +29,7 @@ body {
   }
   
   .navbar a:hover {
-    background-color: #80ffdb;
+    background-color: slateblue;
     color: #000420;
     z-index: 2;
   }
@@ -39,10 +39,11 @@ body {
     height: 98vh;
     display: flex;
     justify-content: center;
-    width : 80%;
+   
     text-align: center;
-    margin-left: 150px;
     color: #f2f2f2;
+    background: url(./nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg) center/cover no-repeat;
+
   }
 
   main h1{
@@ -55,15 +56,10 @@ body {
     font-weight: 500;
     width: 40%;
     position: relative;
-    right: 50px;
+    left: 100px;
     top: 150px;
   }
 
-  body{
-    background: url(./nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg) center/cover no-repeat;
-   
-
-  }
 
   header img{
     width: 55px;
@@ -72,4 +68,59 @@ body {
     position: relative;
     z-index: 3;
     left: 1050px;
+  }
+
+  section{
+    background: rgb(36,37,40);
+    background: linear-gradient(180deg, rgba(36,37,40,1) 28%, rgba(28,89,153,1) 62%, rgba(0,0,0,1) 91%);
+
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  .card {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    margin-top: 100px;
+    height: 50vh;
+    background-color: #000420;
+    color: white;
+    border: 1px solid slateblue;
+    
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    height: 30vh;
+    object-fit: cover;
+  
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 30px;
+  
+    color: white;
+  
+  }
+  
+  .card-content p {
+    color: white;
+  
   }

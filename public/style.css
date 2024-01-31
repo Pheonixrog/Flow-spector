@@ -108,7 +108,7 @@ footer {
 .types {
   display: flex;
   background: rgb(1,0,15);
-background: linear-gradient(180deg, rgba(1,0,15,1) 75%, rgba(16,16,105,1) 100%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(180deg, rgba(1,0,15,1) 75%, rgba(16,16,105,1) 100%, rgba(0,212,255,1) 100%);
   color: white;
   align-items: center;
   justify-content: center;
@@ -128,7 +128,7 @@ background: linear-gradient(180deg, rgba(1,0,15,1) 75%, rgba(16,16,105,1) 100%, 
 .types h3 {
   font-size: 50px;
   position: relative;
-  text-decoration: underline slateblue;
+ 
 }
 .darkpattern p {
   font-size: 20px;
